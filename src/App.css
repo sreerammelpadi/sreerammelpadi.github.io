@@ -1,52 +1,47 @@
-/* Apply a global reset to ensure proper spacing and margins */
+/* Global reset and styling */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Center the app content */
+/* Ensure the html and body elements fill the full height */
+html, body {
+  height: 100%;
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center;     /* Vertically center */
+  background-color: #f5f5f5; /* Optional background color */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Main content container */
 .App {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh; /* Full viewport height */
-  font-family: 'Arial', sans-serif;
-  background-color: #f5f5f5; /* Optional: change the background color */
+  align-items: center;  /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  width: 100%;
+  max-width: 1200px;  /* Optional: max width to prevent stretching */
   text-align: center;
 }
 
-/* Header Styling */
-.App-header {
-  background-color: #282c34;
-  color: white;
-  padding: 40px;
-  border-radius: 10px;
-  margin-bottom: 20px; /* Space between header and other sections */
-}
-
-/* Profile Image Styling */
+/* Profile image style */
 .profile-image {
   border-radius: 50%;
   width: 150px;
   height: 150px;
   object-fit: cover;
-  margin-bottom: 20px; /* Space between image and text */
+  margin-bottom: 20px;
 }
 
-/* Portfolio Section Styling */
+/* Portfolio section style */
 .portfolio-section {
-  max-width: 800px; /* Limit the width */
   padding: 20px;
+  margin: 20px;
 }
 
-h1 {
-  margin-bottom: 10px;
-}
-
-h2 {
-  font-size: 2rem;
+h1, h2 {
   margin-bottom: 10px;
 }
 
@@ -55,17 +50,4 @@ h2 {
   padding: 20px;
   margin: 20px 0;
   border-radius: 10px;
-}
-
-.project h3 {
-  font-size: 1.5rem;
-}
-
-a {
-  color: #61dafb;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
