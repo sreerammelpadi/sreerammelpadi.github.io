@@ -11,7 +11,7 @@ const projects = [
 		description: 'Developed a mental health-focused conversational agent by fine-tuning GPT-2 on counseling datasets along with BART-based context compression to summarize prior user interactions and enable long-range coherence. Integrated chain-of-thought prompting to induce reasoning. Achieved strong semantic alignment with human responses (BERTScore F1: 0.8948)',
 		image: '/therapt.png',
 		tags: ['LLMs', 'PyTorch', 'Kaggle', 'React', 'Flask'],
-		src: 'https://github.com/sreerammelpadi',
+		src: 'https://github.com/sreerammelpadi/TheraPT',
 	},
 	{
 		id: 2,
