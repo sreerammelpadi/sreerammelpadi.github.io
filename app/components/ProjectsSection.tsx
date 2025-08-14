@@ -23,6 +23,14 @@ const projects = [
 	},
 	{
 		id: 3,
+		title: 'WanBoard: Copy files from iPhone to Windows like Apple\'s Universal Clipboard',
+		description: 'Developed a simple tool that can take any text or file and send it to Windows\'s Clipboard with just a push. No More Whatsapp or Drive to send files across!',
+		image: '/wanboard.png',
+		tags: ['Python', 'Flask', 'Tunneling', 'iOS', 'Serveo'],
+		src: 'https://github.com/sreerammelpadi/wan-board',
+	},
+	{
+		id: 4,
 		title: 'Face Mask Detection, Recognition, and Attendance System',
 		description: 'Developed a face mask detection and (face) recognition system using live-feed from Raspberry Pi, marking attendance with mask status in a remote database. Trained a CNN model on GPU with 89% accuracy using TensorFlow/Keras, scraped images with Beautiful Soup, and OpenCV for human detection. Deployed the system on Cloud using AWS EC2, RDS (MySQL) and Flask.',
 		image: '/face-mask.png',
@@ -30,7 +38,7 @@ const projects = [
 		src: 'https://github.com/sreerammelpadi',
 	},
 	{
-		id: 4,
+		id: 5,
 		title: 'Live Tweets Emotion Analyzing Dashboard',
 		description: 'This is a Web application built using Plotly - Dash and backend with sklearn model. It takes two topics and analyses and compares the emotions of each tweet then displays the Dashboard with various details.',
 		image: '/emotion-tweepy.png',
@@ -38,7 +46,7 @@ const projects = [
 		src: 'https://github.com/sreerammelpadi/Emotional-Analysis-on-Twitter-data',
 	},
 	{
-		id: 5,
+		id: 6,
 		title: 'Auto-Colorization of B/W Images',
 		description: 'Model automatically Colorizes an input Black and White Image or Grayscale image into RGB, based on the training set provided.',
 		image: '/bw-to-color.png',
@@ -46,7 +54,7 @@ const projects = [
 		src: 'https://github.com/sreerammelpadi/auto-colorizing-bw-images',
 	},
 	{
-		id: 6,
+		id: 7,
 		title: 'Web App to Categorize Fashion Items',
 		description: 'A Web app built on a light-weight model trained on Fashion MNIST dataset. The app allows user to upload any image of a fashion product and classifies the product into its category and their rank.',
 		image: '/fashion-mnist.gif',
